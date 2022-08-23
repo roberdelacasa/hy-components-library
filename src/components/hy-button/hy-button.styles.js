@@ -15,8 +15,8 @@ export const HyButtonStyles = css`
     background-color:  #00C0B5;
   }
   .hy-button--secondary {
-    color: #333;
-    background-color: transparent;
+    color: #00C0B5;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
   }
   .hy-button--small {
