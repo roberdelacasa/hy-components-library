@@ -12,7 +12,7 @@
     "build-storybook": "build-storybook",
     "test-storybook": "test-storybook",
     "serve:sb": "vite --config vite.storybook.config.js --open",
-    "chromatic": "chromatic --exit-once-uploaded --only-changed --ci" 
+    "chromatic": "npx chromatic --project-token=9c194d7cf397"
   },
   "dependencies": {
     "lit": "^2.2.8"
