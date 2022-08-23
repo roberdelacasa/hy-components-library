@@ -10,19 +10,28 @@
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "serve:sb": "vite --config vite.storybook.config.js --open"
+    "test-storybook": "test-storybook",
+    "serve:sb": "vite --config vite.storybook.config.js --open",
+    "chromatic": "npx chromatic --project-token=9c194d7cf397"
   },
   "dependencies": {
     "lit": "^2.2.8"
   },
   "devDependencies": {
     "@babel/core": "^7.18.10",
+    "@storybook/addon-a11y": "^6.5.10",
     "@storybook/addon-actions": "^6.5.10",
     "@storybook/addon-essentials": "^6.5.10",
     "@storybook/addon-links": "^6.5.10",
+    "@storybook/addon-storyshots": "^6.5.10",
     "@storybook/builder-vite": "^0.2.2",
+    "@storybook/test-runner": "^0.6.1",
     "@storybook/web-components": "^6.5.10",
     "babel-loader": "^8.2.5",
+    "chromatic": "^6.7.4",
+    "jest": "^27.5.1",
     "vite": "^3.0.7"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "hy-components-library@1.0.0"
 }
