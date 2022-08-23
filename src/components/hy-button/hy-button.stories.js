@@ -5,7 +5,6 @@ import './hy-button';
 
 export default {
   title: 'Example/Button',
-  // Need to set the tag to make addon-docs works properly with CustomElementsManifest
   component: 'hy-button',
   argTypes: {
     size: {
