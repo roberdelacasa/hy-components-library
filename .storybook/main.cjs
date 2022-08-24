@@ -6,12 +6,14 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-a11y',
+    '@storybook/addon-interactions',
   ],
   framework: '@storybook/web-components',
   core: {
     builder: '@storybook/builder-vite'
   },
   features: {
-    'storyStoreV7': true
+    interactionsDebugger: true,
+    storyStoreV7: true
   }
 }
