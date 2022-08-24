@@ -28,9 +28,7 @@ Primary.args = {
 };
 
 
-Primary.play = async ({ args, canvasElement }) => {
-  const canvas = within(canvasElement);
-
+Primary.play = async () => {
   const input = await screen.getByShadowTestId('input');
 
   await userEvent.type(input, 'example');
